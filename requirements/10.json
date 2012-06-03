@@ -1,0 +1,35 @@
+{
+	"age": "10",
+	"boy": {
+		"pres": {
+			"curlUps": "45",
+			"shuttleRun": "10.3",
+			"sitReach": "30",
+			"mileRun": "7:57",
+			"pushUps": "22"
+		},
+		"nat": {
+			"curlUps": "35",
+			"shuttleRun": "11.5",
+			"sitReach": "25",
+			"mileRun": "9:48",
+			"pushUps": "14"
+		}
+	},
+	"girl": {
+		"pres": {
+			"curlUps": "40",
+			"shuttleRun": "10.8",
+			"sitReach": "33",
+			"mileRun": "9:19",
+			"pushUps": "20"
+		},
+		"nat": {
+			"curlUps": "30",
+			"shuttleRun": "12.1",
+			"sitReach": "28",
+			"mileRun": "11:22",
+			"pushUps": "13"
+		}
+	}
+}

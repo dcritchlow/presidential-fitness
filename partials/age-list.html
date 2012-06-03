@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+  	<h1>Students Age</h1>
+  	<div class="span2">
+	  	<ul>
+	    	<li ng-repeat="require in requirements" >
+	      		<a href="#/requirements/{{require.age}}">{{require.age}}</a>
+
+	    	</li>
+	  	</ul>
+	  	{{$routeParams.age}}
+	</div>
+</div>

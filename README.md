@@ -1,0 +1,1 @@
+This is a simple angularjs app to help calculate Presidential Fitness Scores
