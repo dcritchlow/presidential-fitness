@@ -11,3 +11,5 @@ function AgeDetailCtrl($scope, $routeParams, $http) {
     $scope.require = data;
   });
 }
+
+//AgeDetailCtrl.$inject = ['$scope', '$routeParams', '$http'];

@@ -3,9 +3,11 @@
 /* App Module */
 
 angular.module('presfitness', []).
-  config(['$routeProvider', function($routeProvider) {
+  config(function($routeProvider) {
   $routeProvider.
-      when('/requirements', {template: 'partials/age-list.html',   controller: RequirementsCtrl}).
-      when('/requirements/:age', {template: 'partials/age-detail.html', controller: AgeDetailCtrl}).
-      otherwise({redirectTo: '/requirements'});
-}]);
+      when('/requirements', {controller:RequirementsCtrl, templateUrl:'partials/age-list.html'}).
+      when('/requirements/:age', {controller:AgeDetailCtrl, templateUrl:'partials/age-detail.html'}).
+      otherwise({redirectTo:'/requirements'});
+});
+
+

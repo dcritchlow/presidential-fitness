@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div ng-controller="RequirementsCtrl"class="container-fluid">
   <div class="row-fluid">
   	<h1>Presidential Fitness Requirements</h1>
   	<h2>Choose an age below</h2>
@@ -6,9 +6,9 @@
 	  	<ul>
 	    	<li ng-repeat="require in requirements" >
 	      		<a href="#/requirements/{{require.age}}">{{require.age}}</a>
-
 	    	</li>
 	  	</ul>
 	  	{{$routeParams.age}}
+	  </div>
 	</div>
 </div>
