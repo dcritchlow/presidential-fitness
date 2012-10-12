@@ -1,6 +1,6 @@
 function RequirementsCtrl($scope, $http) {
   $http.get('requirements/requirements.json').success(function(data){
-  	$scope.requirements = data;
+    $scope.requirements = data;
   });
 }
 
@@ -11,3 +11,5 @@ function AgeDetailCtrl($scope, $routeParams, $http) {
     $scope.require = data;
   });
 }
+
+//AgeDetailCtrl.$inject = ['$scope', '$routeParams', '$http'];
